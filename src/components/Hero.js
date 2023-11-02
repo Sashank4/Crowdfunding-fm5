@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <>
     <div className='bg-slate-100'>
-    <div className='w-11/12 p-4 bg-white rounded-2xl mx-auto '>
+    <div className='w-11/12 p-4 bg-white rounded-2xl mx-auto md:w-1/2 '>
       <img className='mx-auto -mt-10'  src={logo} alt='logo' />
       <h1 className='font-bold text-3xl my-4'>Mastercraft Bamboo Monitor Riser</h1>
       <p className='text-slate-400'>A beautiful & handcrafted monitor stand to reduce neck and eye strain</p>
