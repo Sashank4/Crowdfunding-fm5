@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.buttons button:first-child,.button{
+    background-color: hsl(176, 50%, 47%);
+}
+
+.buttons button:last-child img{
+    z-index: 1;
+}
+
+.button:hover{
+    background-color: hsl(176, 72%, 28%);
+}
+
+  
+.container {
+background-color: rgb(230, 230, 230);
+border-radius: 50px;
+height: 15px;
+}
+
+.barCompleted {
+background-color: hsl(176, 50%, 47%);
+width: 80%;
+border-radius: 50px;
+height: 15px;
+}
+.label{
+    display: none;
+}
+
+.description{
+    color: hsl(176, 50%, 47%);
+}
+
+.flat{
+    filter:grayscale(100%) opacity(0.5);
+   
+}
+
+.popup{
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 120rem;
+    width: 100%;
+    left: 0px;
+}
+
+.thankspopup{
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 120rem;
+    width: 100%;
+    left: 0px;
+}
